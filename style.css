@@ -1,0 +1,351 @@
+@charset "utf-8";
+
+/* Background */
+body {
+  background-image: url("index1.jpg");
+}
+
+/* Navigation bar with social media icons */
+body {margin:0;}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: right;
+}
+
+li {
+  float: left;
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+.active {
+  background-color: #4CAF50;
+}
+
+/* Position1 div */
+div.absolute {
+  position: absolute;
+  top: 300px;
+  left: 140px;
+  width: 900px;
+  height: 100px;
+  border: transparent;
+
+}
+
+/* Position2 div */
+div1.absolute{
+	
+position: absolute;
+  top: 500px;
+  left: 600px;
+  width: 500px;
+  height: 100px;
+  border: transparent;
+  font-size:25px;
+	
+}
+
+/*Title*/
+.title{
+ color:white;
+ font-size:100px;
+ white-space: nowrap;
+ 
+}
+
+/* Position3 div */
+div2.absolute{
+	
+position: absolute;
+  top: 1000px;
+  left: 250px;
+  width: 500px;
+  height: 100px;
+  border: transparent;
+  font-size:50px;
+	
+}
+
+/*Title*/
+.title1{
+ color:white;
+ white-space: nowrap;
+ 
+}
+
+/* Position4 div */
+div3.absolute{
+	
+position: absolute;
+  top: 100px;
+  left: 0px;
+  width: 500px;
+  height: 100px;
+  border: transparent;
+  font-size:25px;
+	
+}
+
+/*Title*/
+.title2{
+ color:white;
+ 
+}
+
+/* Position5 div */
+div4.absolute{
+	
+position: absolute;
+  top: 400px;
+  left: 0px;
+  width: 500px;
+  height: 100px;
+  border: transparent;
+  font-size:60px;
+	
+}
+
+/*Title*/
+.title{
+ color:white;
+ font-size:100px;
+ white-space: nowrap;
+ 
+}
+
+/* Card under image */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+
+/*name off shoe */
+
+
+.i
+{
+  object-fit: contain;
+}
+
+
+/* signe up */
+body {font-family: Arial, Helvetica, sans-serif;
+border-size:100px
+	
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  height: 100px;
+  padding: 11px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing:border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 1px;
+  padding: 20px;
+  color:white;
+	
+  
+}
+
+
+/*LOGIN*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* style the container */
+.container {
+  position: relative;
+  border-radius: 5px;
+ 
+  padding: 20px 0 30px 0;
+} 
+
+/* style inputs and link buttons */
+input,
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  margin: 5px 0;
+  opacity: 0.85;
+  display: inline-block;
+  font-size: 17px;
+  line-height: 20px;
+  text-decoration: none; /* remove underline from anchors */
+}
+
+input:hover,
+.btn:hover {
+  opacity: 1;
+}
+
+/* add appropriate colors to fb, twitter and google buttons */
+.fb {
+  background-color: #3B5998;
+  color: white;
+}
+
+.twitter {
+  background-color: #55ACEE;
+  color: white;
+}
+
+.google {
+  background-color: #dd4b39;
+  color: white;
+}
+
+/* style the submit button */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Two-column layout */
+.col {
+  float: left;
+  width: 50%;
+  margin: auto;
+  padding: 0 50px;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* vertical line */
+.vl {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  border: 2px solid #ddd;
+  height: 175px;
+}
+
+/* text inside the vertical line */
+.vl-innertext {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  padding: 8px 10px;
+}
+
+/* hide some text on medium and large screens */
+.hide-md-lg {
+  display: none;
+}
+
+/* bottom container */
+.bottom-container {
+  text-align: center;
+  background-color: #666;
+  border-radius: 0px 0px 4px 4px;
+}
+
+/* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .col {
+    width: 100%;
+    margin-top: 0;
+  }
+  /* hide the vertical line */
+  .vl {
+    display: none;
+  }
+  /* show the hidden text on small screens */
+  .hide-md-lg {
+    display: block;
+    text-align: center;
+  }
+}
+
+.thank{
+	text-align: center;
+	font-size:200px;
+}
